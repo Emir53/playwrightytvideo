@@ -28,8 +28,12 @@ public class secondcase {
         page.type("input[data-qa='login-email']","emir@mail.com");
         page.type("input[type='password']","emir");
         page.click("button[data-qa='login-button']");
-        // ***kullanıcı adı ile giriş yaptın yazısını kontrol et
+        // ***
+        // kullanıcı adı ile giriş yaptın yazısını kontrol et
+
         page.locator("//a[contains(.,'Logged in as emir')]").isVisible();
+
+        //test bitiş
 
 
 
