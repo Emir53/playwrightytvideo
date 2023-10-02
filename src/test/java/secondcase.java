@@ -30,10 +30,8 @@ public class secondcase {
         page.click("button[data-qa='login-button']");
         // ***
         // kullanıcı adı ile giriş yaptın yazısını kontrol et
-
+        page.locator("//a[contains(.,'Logged in as emir')]").isEnabled();
         page.locator("//a[contains(.,'Logged in as emir')]").isVisible();
-
-        //test bitiş
 
 
 
